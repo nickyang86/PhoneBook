@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="2dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    
+	<ImageView 
+	    android:id="@+id/iv_image"
+	    android:layout_height="50dp"
+	    android:layout_width="50dp"
+	    android:src="@drawable/ic_launcher"
+	    android:padding="5dp"/>
+	
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_height="match_parent"
+	    android:layout_width="0dp"
+	    android:layout_weight="1">
+	    <TextView 
+	        android:id="@+id/tv_name"
+	        android:layout_height="25dp"
+	        android:layout_width="match_parent"
+	        android:textSize="20sp"
+	        android:textColor="#000000"/>
+	    <TextView 
+	        android:id="@+id/tv_number"
+	        android:layout_height="15dp"
+	        android:layout_width="match_parent"
+	        android:textSize="12sp"
+	        android:textColor="#0000ff"/>
+	</LinearLayout>
+	
+	<ImageButton 
+	    android:id="@+id/ib_msg"
+	    android:paddingLeft="20dp"
+	    android:paddingRight="20dp"
+	    android:layout_height="40dp"
+	    android:layout_width="40dp"/>
+	
+	<ImageButton 
+	    android:id="@+id/ib_call"
+	    android:paddingLeft="20dp"
+	    android:paddingRight="40dp"
+	    android:layout_height="40dp"
+	    android:layout_width="40dp"/>
+</LinearLayout>
